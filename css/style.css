@@ -1,0 +1,14 @@
+html {
+    font-family: Arial;
+    background-color: #181b2a;
+}
+
+button {
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
