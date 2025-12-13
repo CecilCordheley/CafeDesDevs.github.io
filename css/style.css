@@ -46,10 +46,22 @@ button {
     .page1Logo {
         width: 100%;
     }
+
+    .page1Content {
+        display: grid;
+        grid-template-columns: 1fr 30px;
+        grid-template-rows: 100px 100px 1fr;
+        grid-template-areas: 'VOID VOID' 'TITLE VOID' 'Text VOID';
+    }
 }
 
 @media (orientation: portrait) {
     .page1Logo {
-        width: 40%;
+        padding: 10px;
+        width: 20%;
+    }
+
+    .page1Content {
+        height: 100vh;
     }
 }
