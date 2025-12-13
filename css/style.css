@@ -23,3 +23,33 @@ button {
     border-radius: 10px;
     background-color: #71008A50;
 }
+
+@media (orientation: landscape) {
+    .page1LogoSetup {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 300px 1fr;
+        grid-template-areas: 'LOGOSPACE' 'LOGOPLACING' 'LOGOSPACE';
+    }
+
+    .page1 {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: 100vh;
+        background-color: darkslateblue;
+        background-image: url('./src/BGTriangles.png');
+        background-position: center;
+        background-size: cover;
+        grid-template-areas: 'R L';
+    }
+
+    .page1Logo {
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait) {
+    .page1Logo {
+        width: 40%;
+    }
+}
