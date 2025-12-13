@@ -64,4 +64,8 @@ button {
     .page1Content {
         height: 100vh;
     }
+
+    nomobile {
+        display: none;
+    }
 }
