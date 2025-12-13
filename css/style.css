@@ -12,3 +12,8 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
+
+.contPage {
+    padding: 10px;
+    border-radius: 10px;
+}
