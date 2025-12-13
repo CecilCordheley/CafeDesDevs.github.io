@@ -13,7 +13,13 @@ button {
     cursor: pointer;
 }
 
-.contPage {
+.contPage0 {
+    padding: 10px;
+    color: white;
+}
+
+.contPage1 {
     padding: 10px;
     border-radius: 10px;
+    background-color: #71008A50;
 }
